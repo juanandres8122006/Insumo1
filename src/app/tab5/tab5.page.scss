@@ -1,0 +1,37 @@
+ion-row {
+    ion-col {
+      ion-img {
+        width: 100%; // Asegura que la imagen ocupe el ancho completo de su contenedor
+        height: auto; // Hace que la altura sea automática para mantener la proporción original
+      }
+    }
+  
+    @media (max-width: 767px) {
+      // Pantallas pequeñas (menores o iguales a 767px)
+      ion-col {
+        order: 2; // Cambia el orden de la columna de la imagen para que aparezca después en pantallas pequeñas
+      }
+    }
+  }
+  ion-row {
+    ion-col {
+      ion-img {
+        width: 100%;
+        height: auto;
+      }
+  
+      ion-title {
+        color: #3498db; // Color de título (un azul claro)
+      }
+  
+      ion-text {
+        color: #2ecc71; // Color de texto (un verde claro)
+      }
+    }
+  
+    @media (max-width: 767px) {
+      ion-col {
+        order: 2;
+      }
+    }
+  }

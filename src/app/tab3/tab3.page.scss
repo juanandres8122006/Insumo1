@@ -1,0 +1,11 @@
+ion-img {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+  .texto-centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }

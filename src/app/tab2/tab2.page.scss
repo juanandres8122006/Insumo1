@@ -1,0 +1,9 @@
+ion-col {
+    border: 1px solid #ff0000;  // Color y grosor del borde
+    margin: 10px;  // Espacio alrededor de cada columna
+    padding: 10px;  // Relleno interno de cada columna
+   
+    ion-card {
+      height: 100%;  // Asegura que la tarjeta ocupe toda la altura de la columna
+    }
+  }

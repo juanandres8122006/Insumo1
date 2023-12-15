@@ -1,0 +1,11 @@
+ion-col {
+    @media (min-width: 576px) {
+      &:nth-child(1) {
+        order: 2; // Cambia el orden de la primera columna en pantallas medianas
+      }
+  
+      &:nth-child(2) {
+        order: 1; // Cambia el orden de la segunda columna en pantallas medianas
+      }
+    }
+  }
